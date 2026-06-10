@@ -1,6 +1,6 @@
-<h1> Git work flow
+*Git workflow*
 1. apt install git-all -y
-2.mkdir vanshika.git
+2. mkdir vanshika.git
 3.cd vanshika.git
 4. git init
 5. ls -a
@@ -14,14 +14,14 @@
 13. git commit -m ""
 14. git push origin main 
 15. username- vanshika-thakkar
-16. pass- git tocken copied created before 
+16. pass- git token copied, created before 
 17. <h2> to create token: git profile--> devloper setting --> personal access token (classic) --> generate new toke (classic) --> add note --> expire date --> scope --. tocken all perm --> generate token --> copy
 18. back to instance--> git status (clean)
 
 <h1> git workflow using local user 
-1. create abd connect instance     
-2. add user--> useradd -a 
-3. swich to new user
+1. Create and connect an instance     
+2. add user--> useradd -m vanshika 
+3. Switch to a newuser - su - vanshika
 4. mkdir vanshika.git
 5. cd vanshika.git
 6. git init
@@ -34,42 +34,3 @@
 14. git push
 15. username and pass
 <h1> ----- DONE------ 
-root@ip-172-31-46-207:~/vanshika.git# cat wed_10hune_day3
-cat: wed_10hune_day3: No such file or directory
-root@ip-172-31-46-207:~/vanshika.git# cat wed_10june_day3
-<h1> Git work flow
-1. apt install git-all -y
-2.mkdir vanshika.git
-3.cd vanshika.git
-4. git init
-5. ls -a
-6. copy token from repo (git)
-7. git clone (repo link: https)
-8. ls -l 
-9. cat > index.html
-10. add text
-11. git add index.html
-12. git status
-13. git commit -m ""
-14. git push origin main 
-15. username- vanshika-thakkar
-16. pass- git tocken copied created before 
-17. <h2> to create token: git profile--> devloper setting --> personal access token (classic) --> generate new toke (classic) --> add note --> expire date --> scope --. tocken all perm --> generate token --> copy
-18. back to instance--> git status (clean)
-
-<h1> git workflow using local user 
-1. create abd connect instance
-2. add user--> useradd -a 
-3. swich to new user
-4. mkdir vanshika.git
-5. cd vanshika.git
-6. git init
-7. git clone repo http code
-8. git config --global username "newuser"
-9. git config --global email "vanshiikathakkar53@outlook.com"
-11. vim add code
-12. git add codefile
-13. git commit -m ""
-14. git push
-15. username and pass
-<h1> ----- DONE------
