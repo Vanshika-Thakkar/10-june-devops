@@ -1,3 +1,16 @@
 To create a work flow with SSH
 ssh-keygen
 enter plain 3 times 
+cd /root
+ls -a (.ssh)
+cd .ssh
+2 keys are there id--- id---.pub
+cat public key
+copy ---> paste in 
+git hub accpunt ---> setting --> ssh&GPG key ---> title ---> paste key --- Add key
+go inside folder 10-june-devops
+now add code
+git add .
+git commit -m ""
+git push 
+-------DONE---------
