@@ -1,0 +1,18 @@
+Branching Strategy
+- Local and remote repo have diffrent branches, we can merge them
+~ apt install git-all -y
+~ yum intall git (for amzon linux image)
+~ Branching strategy 
+---- Hotfix (uregent Realese )
+|
+\
+Main Branch (prod. code) <-------
+                                |
+                                |
+Devlope branch (code integ)--> Release (code ready to realese)
+       ||(both ways)
+Feature branch (new feature)
+       || (bot ways)
+ ---------------------
+ |                   |
+Dev 1               Dev2
